@@ -79,9 +79,11 @@ footer a:visited{
 /*****  End Starter Code ****/
 
 /* Requirement 1 code here*/
-nav a:focus {
+nav a {
   text-decoration: none;
-  outline: none;
+}
+
+nav a:focus {
   border-top: solid 2px yellow;
 }
 
@@ -183,7 +185,7 @@ img {
 /* 10 */
 .text {
 
-  align-items: center;
+  align-self: center;
   max-height: 25vh; 
   overflow: scroll;
 
